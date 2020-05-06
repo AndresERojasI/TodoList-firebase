@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body class="container">
+    <section class="todo-list">
+        <form action="#" id="add-todo">
+            <label for="task">
+                Add a task description:
+                <input type="text" id="task" class="todo-input" placeholder="Type something like buy milk or buy groceries">
+            </label>
+            <input type="submit" value="Add Task">
+        </form>
+        <section class="tasks">
+            <ul>
+                <li class="active" >
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <a href="#" data-id="10">Delete</a>
+                </li>
+                <li class="completed" id="10">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <a href="#" data-id="10">Delete</a>
+                </li>
+            </ul>
+        </section>
+    </section>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
