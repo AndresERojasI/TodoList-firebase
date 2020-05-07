@@ -8,7 +8,7 @@
 </head>
 <body class="container">
     <section class="todo-list">
-        <form action="#" id="add-todo">
+        <form id="add-todo">
             <label for="task">
                 Add a task description:
                 <input type="text" id="task" class="todo-input" placeholder="Type something like buy milk or buy groceries">
@@ -17,19 +17,13 @@
         </form>
         <section class="tasks">
             <ul>
-                <li class="active" >
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                    <a href="#" data-id="10">Delete</a>
-                </li>
-                <li class="completed" id="10">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                    <a href="#" data-id="10">Delete</a>
-                </li>
             </ul>
         </section>
     </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
 
     <!-- TODO: Add SDKs for Firebase products that you want to use
         https://firebase.google.com/docs/web/setup#available-libraries -->
